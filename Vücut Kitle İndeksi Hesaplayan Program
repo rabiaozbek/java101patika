@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class vücutKitleİndeksi {
+    public static void main(String[]args){
+        //değişkenleri oluştur
+        double kg,m,kitleİndeksi;
+        Scanner boykilo = new Scanner(System.in);
+        System.out.println("Kilonuzu Giriniz:");
+        kg = boykilo.nextDouble();
+        System.out.println("Boyunuzu Metre Cinsinden Giriniz:");
+        m = boykilo.nextDouble();
+        kitleİndeksi = kg/(m*m);
+        System.out.println("Vücut Kitle İndeksiniz:"+kitleİndeksi);
+
+
+
+    }
+}
