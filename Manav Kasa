@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class manavKasa {
+    public static void main(String[]args){
+        //değişkenleri oluştur
+        double armuttl=2.14,elmatl=3.67,domatestl=1.11,muztl=0.95,patlıcantl=5;
+        double armut,elma,domates,muz,patlıcan,total;
+        //kullanıcıdan verileri al
+        Scanner manav= new Scanner(System.in);
+        System.out.println("Armut:");
+        armut = manav .nextDouble();
+        System.out.println("elma");
+        elma = manav.nextDouble();
+        System.out.println("Domates:");
+        domates=manav.nextDouble();
+        System.out.println("Muz:");
+        muz=manav.nextDouble();
+        System.out.println("Patlıcan:");
+        patlıcan=manav.nextDouble();
+        total=(armut*armuttl)+(elma*elmatl)+(domates*domatestl)+(muz*muztl)+(patlıcan*patlıcantl);
+        System.out.println("Toplam Ücret:"+total);
+
+
+
+
+    }
+}
