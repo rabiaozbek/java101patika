@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+import java.util.Scanner;
+
+public class daireninAlanıVeÇevresi {
+    public static void main(String[]args){
+        //değişkenleri oluştur
+        int  r;
+        double pi=3.14,alan,çevre;
+        //kullanıcıdan verileri al
+        Scanner daire =new Scanner(System.in);
+        System.out.println("Dairenin Yarıçapını Giriniz:");
+        r = daire.nextInt();
+        alan = pi*r*r;
+        System.out.println("Alanı:"+alan);
+        çevre = 2*pi*r;
+        System.out.println("çevresi:"+çevre);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+}
