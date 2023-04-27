@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class daireDilimininAlanı {
+    public static void main(String[]args) {
+    //değişkenleri oluştur
+        int r;
+        double merkezaçı, pi =3.14,dilimAlanı;
+        //kullanıcıdan verileri al
+        Scanner dilim=new Scanner(System.in);
+        System.out.println("Dairenin Yarıçapını Giriniz:");
+        r = dilim.nextInt();
+        System.out.println("Daire Diliminin Merkezi Açısını Giriniz:");
+        merkezaçı =dilim.nextDouble();
+        dilimAlanı = (pi*(r*r)*merkezaçı)/360;
+        System.out.println("Daire Diliminin Alanı:"+dilimAlanı);
+
+
+
+
+
+
+
+
+    }
+}
