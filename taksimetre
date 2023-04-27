@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class taksimetre {
+    public static void main(String[] args) {
+        //değişkenleri oluştur
+        int km ;
+        double perKm=2.2, açılış=10,tutar;
+        //kullanıcıdan verileri al
+        Scanner taksimetre = new Scanner(System.in);
+        System.out.println("Mesafeyi KM Cinsinden Giriniz:");
+        km = taksimetre.nextInt();
+        tutar =km*perKm;
+        tutar+=açılış;
+        tutar=(tutar<20)? 20:tutar;
+        System.out.println("Ödenecek Tutar:"+tutar);
+        
+
+    }
+
+    {
